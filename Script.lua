@@ -10,7 +10,7 @@ local win = SolarisLib:New({
 })
 
 --win:Tab(title <string>)
-local tab = win:Tab("SHINDO LIFE")
+local tab = win:Tab("MAIN")
 
 --tab:Section(title <string>)
 local sec = tab:Section("SHINDO LIFE")
