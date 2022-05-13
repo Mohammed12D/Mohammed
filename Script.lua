@@ -1,4 +1,5 @@
 -- This User Interface Library is brought to you by Solaris Software.
+local
 local Solaris = Instance.new("ScreenGui")
 Solaris.Name = "dosage's solaris gui"
 Solaris.Parent = game.CoreGui
