@@ -6,7 +6,7 @@ local win = SolarisLib:New({
 })
 
 --win:Tab(title <string>)
-local tab = win:Tab("MAIN")
+local tab = win:Tab("Shindo Life")
 
 --tab:Section(title <string>)
 local sec = tab:Section("SHINDO LIFE")
@@ -30,16 +30,20 @@ end)
 sec:Button("SnxwHub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
 end)
+local tab = win:Tab("Combat Warriors")
 
-local sec = tab:Section("Combat Warriors ")
+local sec = tab:Section("Combat Warriors")
 
 
 sec:Button("Project Hook", function()
 loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
 end)	
 
---[[local tab2 = win:Tab("credits")
 
-local label = sec:Label("Label")
---]]
+local tab = win:Tab("Credits")
+
+local sec = tab:Section("Credits")
+
+
+local label = sec:Label("Mohammed898#5198")
 
